@@ -1,6 +1,6 @@
 <p align=center>
-  <a href="https://estantevirtual.vercel.app/">
-	  <img align="center" src="https://badgen.net/badge/estantevirtual/pdf?icon=vercel&color=red" />
+  <a href="https://estudodamente.vercel.app//">
+	  <img align="center" src="https://badgen.net/badge/estudodamente/pdf?icon=vercel&color=red" />
 	</a>
 </p>
 
