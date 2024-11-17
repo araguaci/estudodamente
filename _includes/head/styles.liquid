@@ -1,0 +1,12 @@
+<!--[if gt IE 8]><!---->
+{% if site.deepdive.no_inline_css or jekyll.environment == 'development' %}
+  {% include_cached head/styles-no-inline.liquid %}
+{% else %}
+  {% include_cached head/styles-layout.liquid layout=include.layout %}
+  {% include_cached head/styles-inline.liquid %}
+{% endif %}
+
+{% unless site.deepdive.no_page_style %}
+  {% include_cached head/page-style.liquid color=include.color theme_color=include.theme_color %}
+{% endunless %}
+<!--<![endif]-->

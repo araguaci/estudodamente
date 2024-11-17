@@ -1,0 +1,26 @@
+<!-- @prettify-ignore -->
+<!--[if gt IE 10]><!---->
+<script nomodule>{% include scripts/nomodule.min.js %}</script>
+<script src="{{ '/assets/js/deepdive-9.1.7.min.js' | relative_url }}" type="module"></script>
+<script src="{{ '/assets/js/legacy/deepdive-9.1.7.min.js' | relative_url }}" nomodule defer></script>
+<script src="/assets/vendor/jquery.min.js"></script>
+<script src="/assets/vendor/purify.min.js"></script>
+<script>{% include scripts/custom.min.js %}</script>
+{% include my-scripts.liquid %}
+{% include body/analytics.liquid %}
+{% include body/analytics_gdpr_compliant.liquid %}
+<script type="module">
+  if ('serviceWorker' in navigator) {
+    /*{% if site.deepdive.offline.enabled %}*/
+    navigator.serviceWorker
+      .register('{{ "/sw.js" | relative_url }}')
+      .then(r => r.update())
+      .catch(() => {});
+    /*{% else %}*/
+    navigator.serviceWorker.getRegistration()
+      .then(r => r.unregister())
+      .catch(() => {});
+    /*{% endif %}*/
+  }
+</script>
+<!--<![endif]-->

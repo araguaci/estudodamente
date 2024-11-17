@@ -1,0 +1,9 @@
+// Copyright (c) 2023 JV conseil <https://www.jv-conseil.net/>
+
+{% include styles/variables.scss %}
+
+@import "variables";
+@import "my-variables";
+@import "mixins";
+
+@import "projects";

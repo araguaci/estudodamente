@@ -1,0 +1,62 @@
+/**
+ * Bootstrap v5.2
+ * https://getbootstrap.com/docs/5.2/customize/sass/#importing
+ */
+
+// Custom.scss
+// Option B: Include parts of Bootstrap
+
+// 1. Include functions first (so you can manipulate colors, SVGs, calc, etc)
+@import "functions";
+
+// 2. Include any default variable overrides here
+@import "bootstrap-overrides";
+
+// 3. Include remainder of required Bootstrap stylesheets
+@import "variables";
+@import "variables-dark";
+
+// 4. Include any default map overrides here
+
+// 5. Include remainder of required parts
+@import "maps";
+@import "mixins";
+// @import "root";
+
+// 6. Optionally include any other parts as needed
+@import "utilities";
+// @import "reboot";
+// @import "type";
+// @import "images";
+// @import "containers";
+@import "grid";
+// @import "helpers";
+// @import "tables";
+@import "forms";
+@import "buttons";
+// @import "transitions";
+// @import "dropdown";
+// @import "button-group";
+// @import "nav";
+// @import "navbar";
+// @import "card";
+// @import "accordion";
+// @import "breadcrumb";
+// @import "pagination";
+// @import "badge";
+// @import "alert";
+// @import "progress";
+// @import "list-group";
+// @import "close";
+// @import "toasts";
+// @import "modal";
+// @import "tooltip";
+// @import "popover";
+// @import "carousel";
+// @import "spinners";
+// @import "offcanvas";
+
+// 7. Optionally include utilities API last to generate classes based on the Sass map in `_utilities.scss`
+// @import "utilities/api";
+
+// 8. Add additional custom code here

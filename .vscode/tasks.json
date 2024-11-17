@@ -1,0 +1,37 @@
+{
+  // See https://go.microsoft.com/fwlink/?LinkId=733558
+  // for the documentation about the tasks.json format
+  "version": "2.0.0",
+  "type": "shell",
+  "presentation": {
+    "panel": "new",
+    "focus": true,
+    "revealProblems": "onProblem",
+  },
+  "problemMatcher": [],
+  "isBackground": false,
+  "tasks": [
+    {
+      "label": "gem",
+      "command": ".bash/osx/gem.sh",
+      "detail": "Build a gem from this theme",
+    },
+    {
+      "label": "jekyll",
+      "runOptions": {
+        "runOn": "folderOpen"
+      },
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "command": ".bash/osx/jekyll.sh",
+      "detail": "Run server jekyll serve --config '_config-dev.yml' --livereload",
+    },
+    {
+      "label": "yarn",
+      "command": ".bash/osx/yarn.sh",
+      "detail": "Upgrade package.json"
+    },
+  ]
+}

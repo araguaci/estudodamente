@@ -1,0 +1,12 @@
+{
+  "name": "deepdive-assets",
+  "homepage": "https://www.jv-conseil.net/",
+  "author": "JV conseil <contact@jv-conseil.net> (https://www.jv-conseil.net)",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "html5shiv": "^3.7.3",
+    "katex": "^0.11.1",
+    "MathJax": "^3.1.2"
+  }
+}

@@ -1,0 +1,71 @@
+<div class="clearfix">
+  <h4><i>Obs: por favor, seja claro e tente informar de forma resumida as sequintes questões: </i></h4>
+  <ul>
+    <li>Nome do projeto/dominio</li>
+    <li>Possui provedor: sim/não (custo de 100 para 12 meses)</li>
+    <li>Objetivo do projeto (website para divulgaçã, sistema de registro de artigos com atualização constante ou sistema)</li>
+    <li>Pessoal / Profissional / Empresarial</li>
+    <li>Urgente (até 7 dias) / 15 dias para entrega / Prazo de 30 dias para melhor avaliação</li>
+  </ul>
+</div>
+<div class="clearfix">
+  <h4>Requisitos necessários para execução de um projeto</h4>
+  <ul>
+    <ol>
+      <li>Iniciação</li>
+      <li>Planejamento</li>
+      <li>Execução</li>
+      <li>Monitoramento e controle</li>
+      <li>Encerramento</li>  
+    </ol>
+  </ul>
+</div>
+<form
+  action="https://formspree.io/f/mkgwoggg"
+  method="POST"
+>
+  <label>
+    Seu email:
+    <input type="email" name="email" />
+  </label>
+
+  <label>
+    Mensagem/Assunto:
+    <textarea name="message"></textarea>
+  </label>
+  <button type="submit" class="btn btn-sm btn-primary mt1"><span class="icon-envelop"></span>&nbsp;Enviar Mensagem</button>
+</form>
+<div class="clearfix">&nbsp;</div>
+<style>
+  /* Some nice boilerplate CSS to tidy up your form */
+  h4, .clearfix {
+    margin-top: 3px;
+    margin-bottom: 3px;
+  }
+  form {
+    display: grid;
+    grid-template-columns: max-content 1fr;
+    grid-gap: 1rem;
+    text-align: left;
+    padding: 0;
+    margin: 0;
+  }
+  form label {
+    display: contents;
+  }
+  form input[type="email"],
+  form textarea,
+  form button {
+    font-family: inherit;
+    font-size: inherit;
+    border: 1px solid currentColor;
+    background: none;
+    padding: 0.4rem 0.5rem;
+  }
+  form textarea {
+    resize: vertical;
+  }
+  form button {
+    justify-self: start;
+  }
+</style>

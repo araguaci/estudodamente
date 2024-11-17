@@ -1,0 +1,3 @@
+{%- if include.url contains '://' -%}
+  target="_blank"
+{%- endif -%}

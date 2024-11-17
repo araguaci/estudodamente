@@ -1,0 +1,129 @@
+// Copyright (c) 2023 JV conseil <https://www.jv-conseil.net/>
+//
+// This program is free software: you can redistribute it and/or modify
+// it under the terms of the GNU General Public License as published by
+// the Free Software Foundation, either version 3 of the License, or
+// (at your option) any later version.
+//
+// This program is distributed in the hope that it will be useful,
+// but WITHOUT ANY WARRANTY; without even the implied warranty of
+// MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+// GNU General Public License for more details.
+//
+// You should have received a copy of the GNU General Public License
+// along with this program.  If not, see <http://www.gnu.org/licenses/>.
+
+{% include styles/variables.scss %}
+@import "variables";
+@import "my-variables";
+@import "mixins";
+
+{% if site.deepdive.dark_mode.dynamic %}
+  @import "dark-mode-dynamic";
+{% else %}
+  @import "dark-mode";
+{% endif %}
+
+@import "reboot-mod";
+
+{% unless site.deepdive.no_inline_css or jekyll.environment == 'development' %}
+  @import "pooleparty/__link__/base";
+  @import "pooleparty/__link__/type";
+  @import "pooleparty/__link__/table";
+  @import "pooleparty/__link__/footer";
+  @import "pooleparty/__link__/footnotes";
+  @import "pooleparty/__link__/code";
+  @import "pooleparty/__link__/posts";
+  @import "pooleparty/__link__/related";
+  @import "pooleparty/__link__/read-more";
+  @import "pooleparty/__link__/message";
+  @import "pooleparty/__link__/pagination";
+
+  @import "deepdive/__link__/base";
+  @import "deepdive/__link__/utilities";
+  @import "deepdive/__link__/links";
+  @import "deepdive/__link__/images";
+  @import "deepdive/__link__/sidebar";
+  @import "deepdive/__link__/social";
+  @import "deepdive/__link__/menu";
+  @import "deepdive/__link__/toc";
+  @import "deepdive/__link__/content";
+  @import "deepdive/__link__/avatar";
+  @import "deepdive/__link__/katex";
+  @import "deepdive/__link__/footer";
+
+  @import "projects";
+  //@import "bootstrap-mod/bootstrap";
+  @import "bootstrap/main";
+
+  {% unless site.deepdive.no_search %}
+    @import "search";
+  {% endunless %}
+
+  {% unless site.deepdive.no_mark_external or site.no_mark_external %}
+    @import "deepdive/__link__/mark-external";
+  {% endunless %}
+
+  {% unless site.deepdive.no_break_layout %}
+    @import "deepdive/__link__/break-layout";
+  {% endunless %}
+
+  @import "my-style";
+{% else %}
+  @import "html";
+
+  @import "pooleparty/_base.pre.scss";
+  @import "pooleparty/_type.pre.scss";
+  @import "pooleparty/_table.pre.scss";
+  @import "pooleparty/_footer.pre.scss";
+  @import "pooleparty/_footnotes.pre.scss";
+  @import "pooleparty/_code.pre.scss";
+  @import "pooleparty/_posts.pre.scss";
+  @import "pooleparty/_related.pre.scss";
+  @import "pooleparty/_read-more.pre.scss";
+  @import "pooleparty/_message.pre.scss";
+  @import "pooleparty/_pagination.pre.scss";
+
+  @import "deepdive/_base.pre.scss";
+  @import "deepdive/_utilities.pre.scss";
+  @import "deepdive/_links.pre.scss";
+  @import "deepdive/_images.pre.scss";
+  @import "deepdive/_sidebar.pre.scss";
+  @import "deepdive/_social.pre.scss";
+  @import "deepdive/_menu.pre.scss";
+  @import "deepdive/_toc.pre.scss";
+  @import "deepdive/_content.pre.scss";
+  @import "deepdive/_avatar.pre.scss";
+  @import "deepdive/_katex.pre.scss";
+  @import "deepdive/_footer.pre.scss";
+
+  @import "projects";
+  //@import "bootstrap-mod/bootstrap";
+  @import "bootstrap/main";
+
+  {% unless site.deepdive.no_search %}
+    @import "search";
+  {% endunless %}
+
+  {% unless site.deepdive.no_mark_external or site.no_mark_external %}
+    @import "deepdive/_mark-external.pre.scss";
+  {% endunless %}
+
+  {% unless site.deepdive.no_break_layout %}
+    @import "deepdive/_break-layout.pre.scss";
+  {% endunless %}
+
+  @import "my-inline";
+  @import "my-style";
+
+  {% include styles/common.scss %}
+{% endunless %}
+
+@import "spinner";
+@import "tippy";
+
+@import "syntax";
+@import "syntax-dark";
+{% if site.deepdive.dark_mode.dynamic %}
+  @import "dark-mode-dynamic-syntax";
+{% endif %}

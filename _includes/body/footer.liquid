@@ -1,0 +1,33 @@
+<footer class="content" role="contentinfo">
+  <hr/>
+  <p>
+    <small class="copyright">
+      {% if site.copyright.size > 0 %}
+        {{ site.copyright | markdownify | replace: '<p>', '' | replace: '</p>', '' }}
+      {% else %}
+        &copy; {{ site.time | date: '%Y' | default: "2024" }}&nbsp;Artes do Sul, All rights reserved
+      {% endif %}
+    </small>
+  </p>
+  {% if site.legal.size > 0 %}
+    <nav class="legal">
+      <small>
+        {% for node in site.legal %}
+          {% assign url = node.url | default: node.href %}
+          <a
+            class="heading flip-title"
+            href="{% include_cached smart-url url=url %}"
+            {% include_cached target-blank url=url %}>{{ node.name | default: node.title }}</a>
+          {% unless forloop.last %}
+            {{ site.data.strings.separator | default: '|' }}{% endunless %}
+        {% endfor %}
+      </small>
+    </nav>
+  {% endif %}
+  <p>
+    <small>Powered by the Jekyll DeepDive theme
+      v<span id="_version">9.1.7</span>
+    </small>
+  </p>
+  <hr class="sr-only" />
+</footer>

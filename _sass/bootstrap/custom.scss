@@ -1,0 +1,37 @@
+/*!
+ * Bootstrap v5.2
+ * How to customize Bootstrap using Sass
+ * Copyright (c) 2023 JV conseil <https://www.jv-conseil
+ * - <https://www.mugo.ca/Blog/How-to-customize-Bootstrap-4-using-Sass>
+ * - <https://getbootstrap.com/docs/4.4/getting-started/download/#source-files>
+ * - <https://refresh-sf.com>
+ */
+
+.btn-primary {
+  color: #fff;
+  background-color: var(--accent-color);
+  border-color: var(--accent-color);
+}
+
+.btn-primary:focus, .btn-primary.focus, .form-control:focus, .form-control.focus {
+  // box-shadow: 0 0 0 3px rgba({{ color }}, .5);
+  box-shadow: 0 0 0 3px var(--accent-color-faded);
+}
+
+.btn-primary:hover, .btn-primary.hover {
+  color: #fff;
+  background-color: var(--accent-color-darkened);
+  border-color: var(--accent-color-darkened);
+}
+
+.btn-primary:disabled, .btn-primary.disabled {
+  color: #fff;
+  background-color: var(--accent-color);
+  border-color: var(--accent-color);
+}
+
+.btn-primary:active, .btn-primary.active {
+  color: #fff;
+  background-color: var(--accent-color-darkened);
+  border-color: var(--accent-color-darkened);
+}

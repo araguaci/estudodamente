@@ -1,0 +1,33 @@
+/*!
+ * Bootstrap v5.2
+ * How to customize Bootstrap using Sass
+ * Copyright (c) 2023 JV conseil <https://www.jv-conseil
+ * - <https://www.mugo.ca/Blog/How-to-customize-Bootstrap-4-using-Sass>
+ * - <https://getbootstrap.com/docs/4.4/getting-started/download/#source-files>
+ * - <https://refresh-sf.com>
+ */
+
+// Forms
+
+$input-bg:                              var(--body-bg); // $body-bg !default;
+// $input-disabled-color:                  null !default;
+// $input-disabled-bg:                     var(--gray-bg); // $gray-200 !default;
+// $input-disabled-border-color:           null !default;
+
+$input-color:                           var(--body-color); // $body-color !default;
+$input-border-color:                    var(--border-color); // $gray-400 !default;
+// $input-border-width:                    1px; // $input-btn-border-width !default;
+// $input-box-shadow:                      inset .1rem .1rem .3rem rgba(#000,.15);
+
+$input-border-radius:                   0rem; // $border-radius !default;
+$input-border-radius-sm:                0rem; // $border-radius !default;
+$input-border-radius-lg:                0rem; // $border-radius !default;
+
+// $input-focus-bg:                        $input-bg !default;
+$input-focus-border-color:              $input-border-color; // tint-color($component-active-bg, 50%) !default;
+// $input-focus-color:                     $input-color !default;
+// $input-focus-width:                     $input-btn-focus-width !default;
+// $input-focus-box-shadow:                $input-btn-focus-box-shadow !default;
+
+// $input-placeholder-color:               $gray-600 !default;
+// $input-plaintext-color:                 $body-color !default;
