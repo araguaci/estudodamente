@@ -1,1 +1,0 @@
-{% capture to_scssify %}{% include styles/projects.scss %}{% endcapture %}{{ to_scssify | scssify }}
