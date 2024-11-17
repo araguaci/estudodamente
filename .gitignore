@@ -1,6 +1,5 @@
 # jekyll
 # See <https://github.com/github/gitignore/blob/main/Jekyll.gitignore>
-docs/
 _drafts/
 .sass-cache/
 .jekyll-cache/
