@@ -1,0 +1,19 @@
+{
+  "name": "Estante Virtual",
+  "version": "1.0.0",
+  "description": "Filósofia • Sociologia • História",
+  "scripts": {
+    "install-deps": "bundle install",
+    "build": "jekyll build",
+    "serve": "jekyll serve --watch --port 4000",
+    "clean": "jekyll clean",
+    "start": "npm run serve"
+  },
+  "keywords": [
+    "jekyll",
+    "static-site",
+    "markdown"
+  ],
+  "author": "@araguaci",
+  "license": "MIT"
+}
