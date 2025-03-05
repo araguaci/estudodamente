@@ -20,20 +20,6 @@ Explore uma rica tapeçaria de ideias tecidas pelos autores selecionados, cada u
 Neste espaço, convidamos você a mergulhar nas obras essenciais de autores cujas ideias desafiaram e moldaram nossa compreensão do mundo. Cada autor é apresentado com uma seleção das suas obras mais influentes e uma breve introdução à sua vida e filosofia.
 
 Um santuário digital dedicado aos leitores ávidos por conhecimento profundo e transformador. Uma seleção exclusiva de livros de alguns dos pensadores mais influentes e controversos das últimas décadas:
-Você está prestes a adentrar um universo onde o estudo da mente humana se encontra com a filosofia, a psicologia e a educação.
-
-Explore uma rica tapeçaria de ideias tecidas pelos autores selecionados, cada um contribuindo de maneira única para a literatura, filosofia, psicologia e educação. Os temas discutidos por esses autores variam amplamente, mas todos se encontram em pontos de intersecção como:
-
-*   **Individualismo vs. Coletivismo**: A luta entre a realização pessoal e a pressão social, explorada por Ayn Rand, Friedrich Nietzsche, e até certo ponto por Carl Gustav Jung em sua análise do inconsciente coletivo versus o individual.
-*   **Autoconhecimento e Espiritualidade**: Eckhart Tolle, C.S. Lewis, e Carlos Castañeda tocam em diferentes aspectos da consciência e espiritualidade, oferecendo caminhos para a iluminação pessoal ou a compreensão de uma realidade mais profunda.
-*   **Criticismo da Educação e Desenvolvimento Humano**: Howard Gardner e John Taylor Gatto abordam a formação educacional, questionando se o sistema atual serve verdadeiramente ao desenvolvimento humano ou se perpetua um status quo que limita o potencial individual.
-*   **Psicologia e Filosofia**: Jung e Nietzsche nos proporcionam uma investigação profunda sobre a psique humana e a vontade de poder, respectivamente, influenciando tanto a psicologia quanto a filosofia moderna.
-
-### **Legado Literário de Grandes Mentes**
-
-Neste espaço, convidamos você a mergulhar nas obras essenciais de autores cujas ideias desafiaram e moldaram nossa compreensão do mundo. Cada autor é apresentado com uma seleção das suas obras mais influentes e uma breve introdução à sua vida e filosofia.
-
-Um santuário digital dedicado aos leitores ávidos por conhecimento profundo e transformador. Uma seleção exclusiva de livros de alguns dos pensadores mais influentes e controversos das últimas décadas:
 
 *   [**Ayn Rand**](https://estudodamente.vercel.app/tag-rand/): foi uma romancista e filósofa russa-americana que desenvolveu a filosofia do Objetivismo, caracterizada por um forte individualismo, egoísmo racional e capitalismo laissez-faire. Suas obras mais famosas, “Atlas Shrugged” e “The Fountainhead”, são alegorias de suas crenças sobre a supremacia do indivíduo sobre o coletivo.
     *   [A Revolta de Atlas](https://estudodamente.vercel.app/blog/a-revolta-de-atlas-ayn-rand/)
