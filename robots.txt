@@ -1,1 +1,1 @@
-Sitemap: https://estudodamente.vercel.app/sitemap.xml
+Sitemap: http://localhost:4000/sitemap.xml
